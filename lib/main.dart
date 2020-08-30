@@ -10,7 +10,7 @@ void main() {
 
 
 class Lenskart extends StatelessWidget {
-  // This widget is the root of your application.
+
 
 
   @override
@@ -22,8 +22,6 @@ class Lenskart extends StatelessWidget {
 
 
     );
-
-
 
 
   }
