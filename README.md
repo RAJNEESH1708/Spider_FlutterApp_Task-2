@@ -1,6 +1,6 @@
 # lenskart
 
-A new Flutter application.
+App with the same UI as the Lenskart app.
 
 ## Getting Started
 
