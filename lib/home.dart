@@ -225,7 +225,27 @@ class HomePage extends StatelessWidget {
           Container(
             margin: EdgeInsets.all(0),
             padding: EdgeInsets.all(0),
-            child: Image.asset("assets/images/nav-image.png"),
+
+            height: 60.0,
+            child: ListView(
+
+              padding: const EdgeInsets.all(0),
+              scrollDirection: Axis.horizontal,
+            children: <Widget>[
+              Container(
+                margin: EdgeInsets.all(0),
+                padding: EdgeInsets.all(0),
+
+                child: Image.asset("assets/images/nav-image1.jpg"),
+              ),
+              Container(
+                margin: EdgeInsets.all(0),
+                padding: EdgeInsets.all(0),
+
+                child: Image.asset("assets/images/nav-image2.jpg"),
+              ),
+            ],
+            ),
           ),
           Container(
             margin: EdgeInsets.all( 0),

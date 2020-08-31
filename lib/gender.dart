@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 
 class Choice {
-  const Choice(this.image);
+  const Choice({this.image,this.color});
 
   final String image;
+  final Color color;
 
 }
 
 const List<Choice> choices = const <Choice>[
-  const Choice('assets/images_gen/m.jpg'),
-  const Choice('assets/images_gen/w.jpg'),
-  const Choice('assets/images_gen/k.jpg'),
+  const Choice(image:'assets/images_gen/m.jpg',color:Color(0xff00BAC6)),
+  const Choice(image:'assets/images_gen/w.jpg',color :Colors.white),
+  const Choice(image:'assets/images_gen/k.jpg',color: Colors.white),
 ];
 
 List<bool> _list = [true, false, false];
@@ -117,6 +118,7 @@ class ChoiceCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Image.asset(choice.image),
+
           ],
         ),
       ),

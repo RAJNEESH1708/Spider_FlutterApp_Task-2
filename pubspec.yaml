@@ -42,7 +42,8 @@ dev_dependencies:
 flutter:
   assets:
     - assets/images/account_nav-pic.jpg
-    - assets/images/nav-image.png
+    - assets/images/nav-image1.jpg
+    - assets/images/nav-image2.jpg
     - assets/images/bottom.png
     - assets/images/cart.jpg
     - assets/images/fav.jpg
